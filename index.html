@@ -2,6 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!--social media icons styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .fa
+      {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      .fa:hover
+      {
+        opacity: 0.7;
+      }
+      .fa-facebook
+      {
+        background: #3b5998;
+        color: white;
+      }
+      .fa-twitter
+      {
+        background: #55acee;
+        color: white;
+      }
+      .fa-instagram
+      {
+        background: #125688;
+        color: white;
+      }
+    </style>
     <meta name="viewport" content="width=device-width">
     <!--description and keywords help rank up in search engine, so people can find this website via Google faster-->
     <meta name="description" content="Ray's Website">
@@ -9,7 +41,7 @@
   	<meta name="author" content="Lang Li">
     <title> Website for Ray | Welcome</title>
     <!--The following line is for linking this file to a CSS file-->
-    <!--link rel="stylesheet" href="./css/style.css"-->
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
@@ -56,12 +88,12 @@
   </body>
   <footer>
     <!--social media connections-->
-    <p>Connect to us on Social Media</p>
-    <ul class="social-icons">
-      <li><a href="http://www.facebook.com"><img src="./img/facebook_circle-512.png" /></a></li>
-      <li><a href="http://www.twitter.com"><img src="./img/Twitter.png" /></a></li>
-      <li><a href="http://www.instagram.com"><img src="./img/instagram-new.png" /></a></li>
+    <p id="social">Connect to us on Social Media</p>
+    <ul id="social-icons">
+      <li><a href="http://www.facebook.com" class="fa fa-facebook"></a></li>
+      <li><a href="http://www.twitter.com" class="fa fa-twitter"></a></li>
+      <li><a href="http://www.instagram.com" class="fa fa-instagram"></a></li>
     </ul>
-    <p>Ray's Real Estate, Copyright &copy; 2018</p>
+    <p id="copyright">Ray's Real Estate, Copyright &copy; 2018</p>
   </footer>
 </html>
