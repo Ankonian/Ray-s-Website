@@ -16,6 +16,14 @@ ul{
   margin:0;
   padding:0;
 }
+/*dark theme for certain areas of the website*/
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* Header **/
 header{
   /*background color*/
@@ -64,14 +72,28 @@ header nav{
 #boxes .box img{
   width:180px;
 }
+/*main col*/
+article#main-col{
+  float:left;
+  width: 65%;
+}
+/*sidebar*/
+aside#sidebar{
+  float:right;
+  width: 30%;
+  margin-top: 10px;
+}
+/*footer*/
 footer li{
   float:left;
   display:inline;
   font-size:8px;
 }
+/*social media icons*/
 #social{
   text-align: left;
 }
+/*Copyright stuff in case you care*/
 #copyright{
   text-align: right;
 }
